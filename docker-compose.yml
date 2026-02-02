@@ -1,0 +1,10 @@
+services:
+  qwen-tts2api:
+    container_name: qwen-tts2api
+    image: ghcr.io/aahl/qwen-tts2api:main
+    build: .
+    ports:
+      - 8825:80
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+    restart: unless-stopped
